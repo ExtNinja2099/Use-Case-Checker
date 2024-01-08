@@ -11,22 +11,22 @@ Command: pip install -r requirements.txt
 The additional external library to install is Tkinter
 Command: pip install tk
 
-##Before running commands
+## **Before running commands**
 Ensure all files and folders are in the same directory/folder
 Folders: _py_cache_ , data, models, Pictures, runs, utils
 Files:.pre-commit-config.yaml, dataset.yaml, hubconf.py, setup.cfg, train.py, UseCaseProgram.py, val.py, yolov5s.pt
 
-##Built With
+## **Built With**
 PyCharm - Text Editor
 Command Prompt - Compiler
 
-##Project Directory Details
+## **Project Directory Details**
 A object detection model isn't loaded by default and the user will have to choose the model
 The user will have to choose a use case diagram image file in Pictures folder
 The trained object detection model weights are in runs/train/
 The models, utils and data folders are provided to train the YOLOv5 model
 
-##Object Detection details
+## **Object Detection details**
 exp First trained model (Detects actors, use_case and system_boundary)
 exp8 Second trained model (Detects actors, use_case, system_boundary, include and exclude)
 exp9 Third, final and best trained model (Detects all elements)
@@ -35,7 +35,7 @@ All exp folders have weights folder storing last.pt and best.pt
 best.pt best training epoch
 last.pt is last training epoch
 
-##Commands
+## **Commands**
 Run the UseCaseDiagramChecker program
 python3 UseCaseProgram.py
 
