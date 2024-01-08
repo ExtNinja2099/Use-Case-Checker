@@ -110,7 +110,8 @@ python3 train.py --img 640 --batch 16 --epochs 500 --data dataset.yaml --cfg ./m
    Requirements.txt file was modified to ensure the Torch version 1.10.2 was installed where the object detection works properly
 
 ## **Authors**
-Ethan Chong 37777025
+Ethan Chong
+Supervisor: Gerald Kotonya
 
 ## **Acknowledgments**
 Ultralytics - Files for training yolov5 object detection model
