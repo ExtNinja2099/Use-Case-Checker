@@ -1,4 +1,4 @@
-## Use-Case-Checker
+## Use Case Diagram Checker
 This is my Final Year Project to create a use case diagram checker in Python
 <br>BSc title: **Use Case Diagram Checker**<br>
 
